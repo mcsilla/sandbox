@@ -11,6 +11,18 @@ activate virtualenv:
 
 # git
 
+new repo from an existing project:
+
+`git init`
+
+push an existing repository:
+
+`git remote add origin git@github.com:username/new_repo`
+
+`git push -u origin master`
+
+
+
 `git status`
 
 `git add <filename>...`
